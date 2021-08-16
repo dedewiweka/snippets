@@ -1,6 +1,6 @@
 ## Welcome to Dede Wiweka GitHub Pages
 
-Here I documented all codes and You can use the to maintain and preview the content for your website in Markdown files.
+Here I documented all codes and snippets commonly used on my projects.
 
 ### Snippet List
 ```markdown
