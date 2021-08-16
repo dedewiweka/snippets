@@ -1,6 +1,10 @@
 ## Woocommerce Custom Price Using URL Parameter
 
-```
+### Add this snippet to your active theme **function.php**
+```markdown
+<? php;
+//Use this code when needed
+
 //Add Custom Price via URL Parameter
 // get and set the custom product price in WC_Session
 add_action( 'init', 'get_custom_product_price_set_to_session' );
@@ -31,7 +35,6 @@ function custom_product_price( $price, $product ) {
     }
     return $price;
 }
-*/
 
 // Change cart item price from WC_Session data
 add_action( 'woocommerce_before_calculate_totals', 'custom_cart_item_price', 20, 1 );
@@ -52,4 +55,15 @@ function custom_cart_item_price( $cart ){
         }
     }
 }
+
+?>
 ```
+
+### Support or Contact
+
+For more details information about my work see [My Blog](https://dede.wiweka.com/).
+
+
+
+
+
