@@ -1,6 +1,6 @@
 ## Woocommerce Custom Price Using URL Parameter
 
-
+```
 //Add Custom Price via URL Parameter
 // get and set the custom product price in WC_Session
 add_action( 'init', 'get_custom_product_price_set_to_session' );
@@ -52,3 +52,4 @@ function custom_cart_item_price( $cart ){
         }
     }
 }
+```
