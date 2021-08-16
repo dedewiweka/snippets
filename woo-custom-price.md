@@ -1,6 +1,14 @@
 ## Woocommerce Custom Price Using URL Parameter
 
-You may use this codes and snippets under [GNU General Public License v3.0](https://github.com/dedewiweka/projects/blob/main/license). Add this snippet to your active theme **function.php**
+### Licences
+
+You may use this codes and snippets under [GNU General Public License v3.0](https://github.com/dedewiweka/projects/blob/main/license)
+
+### Support and Contact
+
+For more information and details about my work please visit [My Website](https://dede.wiweka.com/).
+
+### Snippet List
 
 ```markdown
 <? php;
@@ -59,6 +67,3 @@ function custom_cart_item_price( $cart ){
 
 ?>
 ```
-## Support and Contact
-
-For more information and details about my work please visit [My Website](https://dede.wiweka.com/).
