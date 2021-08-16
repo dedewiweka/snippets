@@ -4,7 +4,7 @@ Here I documented all codes and snippets commonly used on my projects.
 
 ### Snippet List
 
-[Woocommerce Custom Price Using URL Parameter](https://github.wiweka.com/woo-custom-price.md).
+[Woocommerce Custom Price Using URL Parameter](https://dedewiweka.github.io/Woocommerce-Custom-Price-Using-URL-Parameter/).
 
 ### Support or Contact
 
