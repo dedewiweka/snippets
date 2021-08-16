@@ -2,7 +2,7 @@
 
 ### License
 
-You may use this codes and snippets under [GNU General Public License v3.0](https://github.com/dedewiweka/projects/blob/main/license)
+[GNU General Public License v3.0](https://github.com/dedewiweka/projects/blob/main/license)
 
 
 ### Support and Contact
