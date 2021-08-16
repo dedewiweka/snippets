@@ -1,6 +1,6 @@
 ## Woocommerce Custom Price Using URL Parameter
 
-### Add this snippet to your active theme **function.php**
+Add this snippet to your active theme **function.php**
 ```markdown
 <? php;
 //Use this code when needed
