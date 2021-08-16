@@ -64,6 +64,4 @@ function custom_cart_item_price( $cart ){
         }
     }
 }
-
-?>
 ```
