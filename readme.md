@@ -11,5 +11,5 @@ For more information and details about my work visit [My Development Website](ht
 
 
 ### Snippet List
-[Woocommerce CHeckout Page Modification](https://github.com/dedewiweka/projects/blob/main/woocommerce-checkout-page-modifications.md)
+[Woocommerce Checkout Page Modification](https://github.com/dedewiweka/projects/blob/main/woocommerce-checkout-page-modifications.md)
 
