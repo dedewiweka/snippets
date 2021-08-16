@@ -8,7 +8,7 @@ You may use this codes and snippets under [GNU General Public License v3.0](http
 
 ### Support and Contact
 
-For more information and details about my work please visit [My Website](https://dede.wiweka.com/).
+For more information and details about my work please visit [My Development Website](https://dede.wiweka.com/development).
 
 ### Snippet List
 
