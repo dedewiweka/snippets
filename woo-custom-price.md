@@ -8,7 +8,7 @@ You may use this codes and snippets under [GNU General Public License v3.0](http
 
 For more information and details about my work please visit [My Website](https://dede.wiweka.com/).
 
-### Snippet List
+### Code Snippet
 
 ```markdown
 <? php;
