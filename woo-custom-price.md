@@ -57,7 +57,7 @@ function custom_cart_item_price( $cart ){
     if ( did_action( 'woocommerce_before_calculate_totals' ) >= 2 )
         return;
 
-    // Looo through our specific cart item keys
+    // Loo through specific cart item keys
     foreach ( $cart->get_cart() as $cart_item ) {
         // Get custom product price for the current item
         if ( ( $data = WC()->session->get('cp') ) && $cart_item['data']->get_id() == $data['id'] ) {
