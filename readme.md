@@ -7,7 +7,7 @@ Here I documented all codes and snippets commonly used on my projects.
 
 
 ### Support and Contact
-For more information and details about my work please visit [My Development Website](https://dede.wiweka.com/development).
+For more information and details about my work visit [My Development Website](https://dede.wiweka.com/development).
 
 
 ### Snippet List
