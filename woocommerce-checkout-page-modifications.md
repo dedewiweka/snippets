@@ -13,9 +13,6 @@ For more information and details about my work please visit [My Development Webs
 ### Code Snippet
 
 ```markdown
-<? php;
-//Use this code when needed
-
 // COMBINE THE CART TO CHECKOUT PAGES
 	add_action( 'woocommerce_before_checkout_form', 'cart_on_checkout_page_only', 5 );
 	function cart_on_checkout_page_only() {
