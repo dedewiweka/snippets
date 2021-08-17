@@ -1,15 +1,12 @@
-## Welcome to Dede Wiweka GitHub Pages
+# Welcome to Dede Wiweka GitHub Pages
 Here I documented all codes and snippets commonly used on my projects. 
 
 
-### License
+## License
 [GNU General Public License v3.0](https://github.com/dedewiweka/projects/blob/main/license)
 
 
-### Support and Contact
+## Support and Contact
 For more information and details about my work visit [My Development Website](https://dede.wiweka.com/development).
 
-
-### Snippet List
-[Woocommerce Checkout Page Modification](https://github.com/dedewiweka/projects/blob/main/woocommerce-checkout-page-modifications.md)
 
