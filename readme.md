@@ -8,5 +8,3 @@ Here I documented all codes and snippets commonly used on my projects.
 
 ## Support and Contact
 For more information and details about my work visit [My Development Website](https://dede.wiweka.com/development).
-
-
