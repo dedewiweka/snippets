@@ -1,4 +1,4 @@
-## Woocommerce Hide Have Coupon Message Field
+## Woocommerce Hide Added To Cart Message Field
 
 ### License
 
@@ -13,6 +13,9 @@ For more information and details about my work please visit [My Development Webs
 ### Code Snippet
 
 ```markdown
-// HIDE HAVE COUPON MESSAGE FIELD
-remove_action( 'woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_form', 10 ); 
+//HIDE ADDED TO CART MESSAGE FIELD
+	add_filter( 'wc_add_to_cart_message', 'remove_add_to_cart_message' );
+	function remove_add_to_cart_message() {
+		return;
+	}
 ```
