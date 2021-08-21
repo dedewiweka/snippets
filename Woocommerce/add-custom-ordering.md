@@ -26,4 +26,3 @@ function my_custom_ordering_orderby($sortby) {
 
 	return $sortby;
 }
-
