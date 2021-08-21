@@ -1,4 +1,4 @@
-## Snippet title
+## Full path disclosure
 
 ### Code Snippet
 

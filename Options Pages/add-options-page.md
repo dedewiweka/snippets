@@ -1,6 +1,9 @@
-<?php 
+## Add options page
 
-dd_action('admin_menu', 'my_options_page');
+### Code Snippet
+
+```php
+add_action('admin_menu', 'my_options_page');
 function my_options_page() {
   $page_title = 'Options page';
 	$menu_title = 'Options page';
@@ -20,3 +23,13 @@ function my_options_content() {
   </div><!-- /.wrap -->
 <?php 
 }
+```
+### Explanations
+
+### License
+
+[GNU General Public License v2.0](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
+
+### Support and Contact
+
+For more information and details about my work please visit [My Development Website](https://dede.wiweka.com/development).
