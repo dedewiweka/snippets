@@ -1,20 +1,24 @@
----
-title: functionName
-tags: array,intermediate
-firstSeen: 2021-08-13
----
+## Snippet title
 
-Explain briefly what the snippet does.
-
+### Explanations
 - Explain briefly how the snippet works.
 - Use bullet points for the snippet's explanation.
 - Try to explain everything briefly but clearly.
 
-```js
-const functionName = arguments =>
-  {functionBody}
-```
+### Code Snippet
 
-```js
-functionName('sampleInput'); // 'sampleOutput'
+```markdown
+//Comment every codes
+functionName($variable){
+  if ( condition() ):
+    result;
+}
 ```
+### License
+
+[GNU General Public License v2.0](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
+
+
+### Support and Contact
+
+For more information and details about my work please visit [My Development Website](https://dede.wiweka.com/development).
