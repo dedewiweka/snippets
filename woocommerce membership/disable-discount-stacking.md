@@ -12,7 +12,7 @@ add_filter( 'wc_memberships_allow_cumulative_member_discounts', '__return_false'
 ```
 ### License
 
-[GNU General Public License v3.0](https://github.com/dedewiweka/projects/blob/main/license)
+[GNU General Public License v2.0](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
 
 
 ### Support and Contact
