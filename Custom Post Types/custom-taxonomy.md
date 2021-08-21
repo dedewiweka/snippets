@@ -1,5 +1,8 @@
-<?php
+## Custom taxonomy
 
+### Code Snippet
+
+```php
 add_action('init', 'add_my_custom_taxonomy');
 function add_my_custom_taxonomy() {
     $labels = array(
@@ -35,3 +38,13 @@ function add_my_custom_taxonomy() {
     );
     register_taxonomy('my_custom_taxonomy', array('my_post_type'), $args);
 }
+```
+### Explanations
+
+### License
+
+[GNU General Public License v2.0](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
+
+### Support and Contact
+
+For more information and details about my work please visit [My Development Website](https://dede.wiweka.com/development).

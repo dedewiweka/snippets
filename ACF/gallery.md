@@ -2,7 +2,7 @@
 
 ### Code Snippet
 
-```markdown 
+```php
   $gallery = get_field('my_gallery');
   if($gallery);
 ?>

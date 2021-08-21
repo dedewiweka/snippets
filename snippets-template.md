@@ -2,7 +2,7 @@
 
 ### Code Snippet
 
-```markdown
+```php
 //Comment every codes
 functionName($variable){
   if ( condition() ):
@@ -10,14 +10,10 @@ functionName($variable){
 }
 ```
 ### Explanations
-- Explain briefly how the snippet works.
-- Use bullet points for the snippet's explanation.
-- Try to explain everything briefly but clearly.
 
 ### License
 
 [GNU General Public License v2.0](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
-
 
 ### Support and Contact
 

@@ -2,7 +2,7 @@
 
 ### Code Snippet
 
-```markdown
+```php
 $date = get_field('date_picker_field');
 
 $format_in = 'Ymd';

@@ -2,7 +2,7 @@
 
 ### Code Snippet
 
-```markdown
+```php
 $post_obj = get_field('my_post_obj');
 if(!empty($post_obj)) {
   global $post;

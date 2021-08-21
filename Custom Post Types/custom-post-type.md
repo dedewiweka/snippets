@@ -1,5 +1,8 @@
-<?php 
+## Custom post type
 
+### Code Snippet
+
+```php
 add_action('init', 'add_my_cpt', 0);
 function add_ctp() {
 	$labels = array(
@@ -58,3 +61,13 @@ function add_ctp() {
 	
 	register_post_type('my_cpt', $args);
 }
+```
+### Explanations
+
+### License
+
+[GNU General Public License v2.0](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
+
+### Support and Contact
+
+For more information and details about my work please visit [My Development Website](https://dede.wiweka.com/development).

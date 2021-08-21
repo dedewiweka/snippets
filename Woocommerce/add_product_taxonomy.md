@@ -1,5 +1,8 @@
-<?php 
+## Add product taxonomy
 
+### Code Snippet
+
+```php
 add_action('init', 'my_product_taxonomy');
 function my_product_taxonomy() {
 	$labels = array(
@@ -29,3 +32,14 @@ function my_product_taxonomy() {
 	register_taxonomy('tax', 'product', $args);
 	register_taxonomy_for_object_type('tax', 'product');
 }
+```
+### Explanations
+
+### License
+
+[GNU General Public License v2.0](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
+
+
+### Support and Contact
+
+For more information and details about my work please visit [My Development Website](https://dede.wiweka.com/development).

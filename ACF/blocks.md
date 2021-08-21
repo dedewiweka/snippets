@@ -2,7 +2,7 @@
 
 ### Code Snippet
 
-```markdown
+```php
 // Inside functions.php ?>
   // Register testimonial block
   add_action('acf/init', 'my_acf_init');

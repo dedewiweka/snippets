@@ -2,7 +2,7 @@
 
 ### Code Snippet
 
-```markdown
+```php
 if(function_exists('acf_add_options_page') && function_exists('acf_add_options_sub_page')) {
     $args = array(
         'page_title'    =>  'My ACF Options Page',
