@@ -1,15 +1,5 @@
 ## Woocommerce Hide Added To Cart Message Field
 
-### License
-
-[GNU General Public License v3.0](https://github.com/dedewiweka/projects/blob/main/license)
-
-
-### Support and Contact
-
-For more information and details about my work please visit [My Development Website](https://dede.wiweka.com/development).
-
-
 ### Code Snippet
 
 ```markdown
@@ -19,3 +9,13 @@ For more information and details about my work please visit [My Development Webs
 		return;
 	}
 ```
+### Explanations
+
+### License
+
+[GNU General Public License v2.0](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
+
+
+### Support and Contact
+
+For more information and details about my work please visit [My Development Website](https://dede.wiweka.com/development).
