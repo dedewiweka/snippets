@@ -1,5 +1,8 @@
-<?php 
+## Disable comments
 
+### Code Snippet
+
+```php
 //Disable support for comments and trackbacks in post types
 add_action('admin_init', 'disable_comments_post_types_support');
 function disable_comments_post_types_support() {
@@ -11,27 +14,31 @@ function disable_comments_post_types_support() {
             }
     }
 }
-
+```
+```php
 //Close comments on the front-end
 add_filter('comments_open', 'disable_comments_status', 20, 2);
 add_filter('pings_open', 'disable_comments_status', 20, 2);
 function disable_comments_status() {
     return false;
 }
-
+```
+```php
 //Hide existing comments
 add_filter('comments_array', 'disable_comments_hide_existing_comments', 10, 2);
 function disable_comments_hide_existing_comments($comments) {
     $comments = array();
     return $comments;
 }
-
+```
+```php
 //Remove comments page in menu
 add_action('admin_menu', 'disable_comments_admin_menu');
 function disable_comments_admin_menu() {
     remove_menu_page('edit-comments.php');
 }
-
+```
+```php
 //Redirect any user trying to access comments page
 add_action('admin_init', 'disable_comments_admin_menu_redirect');
 function disable_comments_admin_menu_redirect() {
@@ -40,13 +47,15 @@ function disable_comments_admin_menu_redirect() {
         wp_redirect(admin_url()); exit;
     }
 }
-
+```
+```php
 //Remove comments metabox from dashboard
 add_action('admin_init', 'disable_comments_dashboard');
 function disable_comments_dashboard() {
     remove_meta_box('dashboard_recent_comments', 'dashboard', 'normal');
 }
-
+```
+```php
 //Remove comments links from admin bar
 add_action('init', 'disable_comments_admin_bar');
 function disable_comments_admin_bar() {
@@ -54,3 +63,13 @@ function disable_comments_admin_bar() {
         remove_action('admin_bar_menu', 'wp_admin_bar_comments_menu', 60);
     }
 }
+```
+### Explanations
+
+### License
+
+[GNU General Public License v2.0](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
+
+### Support and Contact
+
+For more information and details about my work please visit [My Development Website](https://dede.wiweka.com/development).

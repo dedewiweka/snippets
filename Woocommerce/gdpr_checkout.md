@@ -1,25 +1,30 @@
-<?php 
+## GDPR Checkout
+
+### Code Snippet
+
+```php
 /* ADD GDPR COMPLIANCE FIELDS TO CHECKOUT */
 /* ========================================================================== */
 add_action('woocommerce_after_order_notes', 'my_add_gpdr_fields');
 function my_add_gpdr_fields($checkout) {
 	woocommerce_form_field('my_account_compliance', array(
-		'type'							=>	'checkbox',
-		'required'					=>	true,
-		'custom_attributes' => array('required' => 'required'),
-		'value'							=>	false,
-		'label'							=>	'By registering, I give my consent for the usage of my private data for the purpose of registering an account.'
+		'type'				=>	'checkbox',
+		'required'			=>	true,
+		'custom_attributes' => 	array('required' => 'required'),
+		'value'				=>	false,
+		'label'				=>	'By registering, I give my consent for the usage of my private data for the purpose of registering an account.'
 	), $checkout->get_value('my_account_compliance'));
 
 	woocommerce_form_field('my_third_party_compliance', array(
-		'type'							=>	'checkbox',
-		'required'					=>	true,
+		'type'				=>	'checkbox',
+		'required'			=>	true,
 		'custom_attributes' => array('required' => 'required'),
-		'value'							=>	false,
-		'label'							=>	'By submitting my order, I give consent to <WEBSITE> to give my personal data to courier companies to deliver my products.'
+		'value'				=>	false,
+		'label'				=>	'By submitting my order, I give consent to <WEBSITE> to give my personal data to courier companies to deliver my products.'
 	), $checkout->get_value('my_third_party_compliance'));
 }
-
+```
+```php
 // Update order meta with field value
 add_action('woocommerce_checkout_update_order_meta', 'my_update_gpdr_fields_meta');
 function my_update_gpdr_fields_meta() {
@@ -36,6 +41,8 @@ function my_update_gpdr_fields_meta() {
 	}
 }
 
+```
+```php
 // Catch errors
 add_action('woocommerce_checkout_process', 'my_custom_checkout_process');
 function my_custom_checkout_process() {
@@ -47,3 +54,13 @@ function my_custom_checkout_process() {
 		wc_add_notice('Please give your <strong>compliance for providing your personal data to courier companies</strong> to complete the order.', 'error');
 	}
 }
+```
+### Explanations
+
+### License
+
+[GNU General Public License v2.0](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
+
+### Support and Contact
+
+For more information and details about my work please visit [My Development Website](https://dede.wiweka.com/development).

@@ -1,5 +1,9 @@
-<?php 
+## Add custom ordering
 
+### Code Snippet
+
+```php
+//Make ordering arguments
 add_filter('woocommerce_get_catalog_ordering_args', 'my_custom_ordering_args');
 function my_custom_ordering_args($args) {
 	$orderby_value = isset($_GET['orderby']) ? woocommerce_clean($_GET['orderby']) : apply_filters('woocommerce_default_catalog_orderby', get_option('woocommerce_default_catalog_orderby'));
@@ -16,7 +20,8 @@ function my_custom_ordering_args($args) {
 
 	return $args;
 }
-
+```
+```php
 // Set ordering types
 add_filter('woocommerce_default_catalog_orderby_options', 'my_custom_ordering_orderby');
 add_filter('woocommerce_catalog_orderby', 'my_custom_ordering_orderby');
@@ -26,3 +31,13 @@ function my_custom_ordering_orderby($sortby) {
 
 	return $sortby;
 }
+```
+### Explanations
+
+### License
+
+[GNU General Public License v2.0](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
+
+### Support and Contact
+
+For more information and details about my work please visit [My Development Website](https://dede.wiweka.com/development).

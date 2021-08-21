@@ -1,8 +1,8 @@
-## Woocommerce Combine The Cart To Checkout Page
+## Combine The Cart To Checkout Page
 
 ### Code Snippet
 
-```markdown
+```php
 // COMBINE THE CART TO CHECKOUT PAGES
 	add_action( 'woocommerce_before_checkout_form', 'cart_on_checkout_page_only', 5 );
 	function cart_on_checkout_page_only() {

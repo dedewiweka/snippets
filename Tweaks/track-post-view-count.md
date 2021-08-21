@@ -1,8 +1,12 @@
-<?php
+## Track post view count
 
+### Code Snippet
+
+```php
 // First disable prefetching
 remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
-
+```
+```php
 // Update the post view count on each single page view
 add_action('wp_head', 'my_track_post_views');
 function my_track_post_views($post_id) {
@@ -31,3 +35,13 @@ function my_set_post_views($post_id) {
     update_post_meta($post_id, $count_key, $count);
   }
 }
+```
+### Explanations
+
+### License
+
+[GNU General Public License v2.0](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
+
+### Support and Contact
+
+For more information and details about my work please visit [My Development Website](https://dede.wiweka.com/development).

@@ -1,8 +1,8 @@
-<?php 
+## Custom dashboard logo
 
-// Logo must me 16x16 px 
-// Upload the logo in your theme's assets/images folder
+### Code Snippet
 
+```php
 add_action('wp_before_admin_bar_render', 'my_custom_logo');
 function my_custom_logo() {
   echo '
@@ -18,3 +18,17 @@ function my_custom_logo() {
     </style>
   ';
 }
+```
+### Explanations
+- Logo must be 16x16 px 
+- Upload the logo in your theme's assets/images folder
+### License
+
+[GNU General Public License v2.0](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
+
+### Support and Contact
+
+For more information and details about my work please visit [My Development Website](https://dede.wiweka.com/development).
+
+
+
