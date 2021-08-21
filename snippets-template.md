@@ -1,10 +1,5 @@
 ## Snippet title
 
-### Explanations
-- Explain briefly how the snippet works.
-- Use bullet points for the snippet's explanation.
-- Try to explain everything briefly but clearly.
-
 ### Code Snippet
 
 ```markdown
@@ -14,6 +9,11 @@ functionName($variable){
     result;
 }
 ```
+### Explanations
+- Explain briefly how the snippet works.
+- Use bullet points for the snippet's explanation.
+- Try to explain everything briefly but clearly.
+
 ### License
 
 [GNU General Public License v2.0](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
