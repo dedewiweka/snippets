@@ -1,7 +1,5 @@
 ## Add custom scheduling
-
-### Code Snippet
-
+[![License](https://img.shields.io/github/license/dedewiweka/snippets?color=brightgreen)](https://github.com/dedewiweka/snippets/blob/main/LICENSE) [![Contact](https://img.shields.io/badge/contact-Dede%20Wiweka-orange)](https://dede.wiweka.com/development) ![File size](https://img.shields.io/github/size/dedewiweka/snippets/add_custom_schedulling.md) 
 ```php
 add_action('init', function() {
   if(wp_next_scheduled('my_cron_hook')) {
@@ -22,12 +20,3 @@ add_filter('cron_schedules', function($schedules) {
   return $schedules;
 });
 ```
-### Explanations
-
-### License
-
-[GNU General Public License v2.0](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
-
-### Support and Contact
-
-For more information and details about my work please visit [My Development Website](https://dede.wiweka.com/development).

@@ -1,7 +1,5 @@
 ## Custom post type
-
-### Code Snippet
-
+[![License](https://img.shields.io/github/license/dedewiweka/snippets?color=brightgreen)](https://github.com/dedewiweka/snippets/blob/main/LICENSE) [![Contact](https://img.shields.io/badge/contact-Dede%20Wiweka-orange)](https://dede.wiweka.com/development) ![File size](https://img.shields.io/github/size/dedewiweka/snippets/custom-post-type.md) 
 ```php
 add_action('init', 'add_my_cpt', 0);
 function add_ctp() {
@@ -62,12 +60,3 @@ function add_ctp() {
 	register_post_type('my_cpt', $args);
 }
 ```
-### Explanations
-
-### License
-
-[GNU General Public License v2.0](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
-
-### Support and Contact
-
-For more information and details about my work please visit [My Development Website](https://dede.wiweka.com/development).
