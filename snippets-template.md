@@ -1,5 +1,5 @@
 ## Snippet title
-![GitHub](https://img.shields.io/github/license/dedewiweka/snippets?label=License&logoColor=brightgreen) ![GitHub file size in bytes](https://img.shields.io/github/size/dedewiweka/snippets/)
+![GitHub](https://img.shields.io/github/license/dedewiweka/snippets?label=License&logoColor=brightgreen) ![GitHub file size in bytes](![GitHub file size in bytes](https://img.shields.io/github/size/dedewiweka/snippets/snippets-template.md)
 ### Code Snippet
 
 ```php
