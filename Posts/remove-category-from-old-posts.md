@@ -1,7 +1,5 @@
 ## Exclude category from old posts
-
-### Code Snippet
-
+[![License](https://img.shields.io/github/license/dedewiweka/snippets?color=brightgreen)](https://github.com/dedewiweka/snippets/blob/main/LICENSE) [![Contact](https://img.shields.io/badge/contact-Dede%20Wiweka-orange)](https://dede.wiweka.com/development) ![File size](https://img.shields.io/github/size/dedewiweka/snippets/Posts/remove-category-from-old-posts.md) 
 ```php
 // Execute this hook with a cron job
 add_action('my_remove_cats', 'my_remove_cats_exec');
@@ -21,12 +19,3 @@ function my_remove_cats_exec() {
   }
 }
 ```
-### Explanations
-
-### License
-
-[GNU General Public License v2.0](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
-
-### Support and Contact
-
-For more information and details about my work please visit [My Development Website](https://dede.wiweka.com/development).
