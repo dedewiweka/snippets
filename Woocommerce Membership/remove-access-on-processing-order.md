@@ -2,7 +2,7 @@
 
 ### Code Snippet
 
-```markdown
+```php
 /**
  * Removes membership access for processing orders
  * so access is only granted at when orders are complete

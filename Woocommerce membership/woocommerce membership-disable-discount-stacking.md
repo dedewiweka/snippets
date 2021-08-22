@@ -6,7 +6,7 @@
 
 ### Code Snippet
 
-```markdown
+```php
 //Disable Discount Stacking for member
 add_filter( 'wc_memberships_allow_cumulative_member_discounts', '__return_false' );
 ```

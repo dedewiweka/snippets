@@ -2,7 +2,7 @@
 
 ### Code Snippet
 
-```markdown
+```php
 //MAKE BILLING FIELD WIDTH 100%
 function custom_billing_css_styles() {
     ?>

@@ -1,5 +1,8 @@
-<?php 
+## Loop through taxonomies
 
+### Code Snippet
+
+```php
 $taxonomies = get_terms(array(
   'taxonomy'      => 'tax-slug',
   'orderby'       => 'term_id',
@@ -34,3 +37,13 @@ foreach($taxonomies as $tax) {
   $tax_query = null;
   wp_reset_postdata();
 }
+```
+### Explanations
+
+### License
+
+[GNU General Public License v2.0](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
+
+### Support and Contact
+
+For more information and details about my work please visit [My Development Website](https://dede.wiweka.com/development).

@@ -2,7 +2,7 @@
 
 ### Code Snippet
 
-```markdown
+```php
 //Remove discount badge
 add_filter( 'wc_memberships_member_discount_badge', '__return_empty_string' );
 ```

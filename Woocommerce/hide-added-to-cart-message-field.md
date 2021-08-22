@@ -2,7 +2,7 @@
 
 ### Code Snippet
 
-```markdown
+```php
 //HIDE ADDED TO CART MESSAGE FIELD
 	add_filter( 'wc_add_to_cart_message', 'remove_add_to_cart_message' );
 	function remove_add_to_cart_message() {

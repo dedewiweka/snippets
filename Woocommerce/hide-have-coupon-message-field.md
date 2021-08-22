@@ -2,7 +2,7 @@
 
 ### Code Snippet
 
-```markdown
+```php
 // HIDE HAVE COUPON MESSAGE FIELD
 remove_action( 'woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_form', 10 ); 
 ```

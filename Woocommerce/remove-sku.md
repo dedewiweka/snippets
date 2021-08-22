@@ -1,7 +1,7 @@
 ## Woocommerce Remove SKU
 ### Code Snippet
 
-```markdown
+```php
 add_filter( 'wc_product_sku_enabled', '__return_false' );
 ```
 ### Explanations

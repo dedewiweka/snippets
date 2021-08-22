@@ -1,7 +1,7 @@
 ## Woocommerce Make Full Width Shipping Field
 ### Code Snippet
 
-```markdown
+```php
 //MAKE FULL WIDTH SHIPPING FIELD
 function custom_shipping_css_styles() {
     ?>
