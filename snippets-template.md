@@ -8,7 +8,3 @@ functionName($variable){
     result;
 }
 ```
-
-### Support and Contact
-
-For more information and details about my work please visit [My Development Website](https://dede.wiweka.com/development).
