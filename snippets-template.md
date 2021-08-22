@@ -1,5 +1,5 @@
 ## Snippet title
-![GitHub](https://img.shields.io/github/license/dedewiweka/snippets?label=License&logoColor=brightgreen) ![GitHub file size in bytes](https://img.shields.io/github/size/dedewiweka/snippets/snippets-template.md)
+![GitHub file size in bytes](https://img.shields.io/github/size/dedewiweka/snippets/snippets-template.md)
 ### Code Snippet
 
 ```php
@@ -13,7 +13,7 @@ functionName($variable){
 
 ### License
 
-[GNU General Public License v2.0](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
+[![GitHub](https://img.shields.io/github/license/dedewiweka/snippets?label=License&logoColor=brightgreen)](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
 
 ### Support and Contact
 
