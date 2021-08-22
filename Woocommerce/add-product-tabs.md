@@ -1,7 +1,5 @@
 ## Addproduct tab
-
-### Code Snippet
-
+[![License](https://img.shields.io/github/license/dedewiweka/snippets?color=brightgreen)](https://github.com/dedewiweka/snippets/blob/main/LICENSE) [![Contact](https://img.shields.io/badge/contact-Dede%20Wiweka-orange)](https://dede.wiweka.com/development) ![File size](https://img.shields.io/github/size/dedewiweka/snippets/Woocommerce/add-product-tabs.md) 
 ```php
 // Add extra tab to Woocommerce
 add_filter('woocommerce_product_tabs', 'my_custom_tabs');
@@ -20,12 +18,3 @@ function my_custom_tab_callback() {
   // Echo your custom field here
 }
 ```
-### Explanations
-
-### License
-
-[GNU General Public License v2.0](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
-
-### Support and Contact
-
-For more information and details about my work please visit [My Development Website](https://dede.wiweka.com/development).

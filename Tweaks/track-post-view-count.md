@@ -1,7 +1,5 @@
 ## Track post view count
-
-### Code Snippet
-
+[![License](https://img.shields.io/github/license/dedewiweka/snippets?color=brightgreen)](https://github.com/dedewiweka/snippets/blob/main/LICENSE) [![Contact](https://img.shields.io/badge/contact-Dede%20Wiweka-orange)](https://dede.wiweka.com/development) ![File size](https://img.shields.io/github/size/dedewiweka/snippets/Tweaks/track-post-view-count.md) 
 ```php
 // First disable prefetching
 remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
@@ -36,12 +34,3 @@ function my_set_post_views($post_id) {
   }
 }
 ```
-### Explanations
-
-### License
-
-[GNU General Public License v2.0](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
-
-### Support and Contact
-
-For more information and details about my work please visit [My Development Website](https://dede.wiweka.com/development).
