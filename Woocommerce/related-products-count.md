@@ -1,7 +1,5 @@
 ## Related products count
-
-### Code Snippet
-
+[![License](https://img.shields.io/github/license/dedewiweka/snippets?color=brightgreen)](https://github.com/dedewiweka/snippets/blob/main/LICENSE) [![Contact](https://img.shields.io/badge/contact-Dede%20Wiweka-orange)](https://dede.wiweka.com/development) ![File size](https://img.shields.io/github/size/dedewiweka/snippets/Woocommerce/related-products-count.md) 
 ```php
 add_filter('woocommerce_output_related_products_args', 'my_related_product_count');
   function my_related_product_count( $args ) {
@@ -10,12 +8,3 @@ add_filter('woocommerce_output_related_products_args', 'my_related_product_count
 	return $args;
 }
 ```
-### Explanations
-
-### License
-
-[GNU General Public License v2.0](https://github.com/dedewiweka/snippets/blob/main/LICENSE)
-
-### Support and Contact
-
-For more information and details about my work please visit [My Development Website](https://dede.wiweka.com/development).
