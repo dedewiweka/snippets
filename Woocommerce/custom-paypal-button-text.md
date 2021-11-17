@@ -1,3 +1,7 @@
+## Addproduct tab
+[![License](https://img.shields.io/github/license/dedewiweka/snippets?color=brightgreen)](https://github.com/dedewiweka/snippets/blob/main/LICENSE) [![Contact](https://img.shields.io/badge/contact-Dede%20Wiweka-orange)](https://dede.wiweka.com/development) ![File size](https://img.shields.io/github/size/dedewiweka/snippets/Woocommerce/custom-paypal-button-text.md) 
+```php
+
 /**
  * Custom PayPal button text
  *
@@ -12,3 +16,4 @@ function ld_custom_paypal_button_text( $translated_text, $text, $domain ) {
 	}
 	return $translated_text;
 }
+```
